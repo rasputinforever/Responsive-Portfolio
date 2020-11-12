@@ -1,27 +1,45 @@
+
 #main-content {
-    background-color: Grey;
+    background-color: #badbf3;
     margin-top: 50px;
     margin-left: 20px;
+    position: relative;
+}
+.background-img {
+    position: fixed;
+    width: 100%;
+    background-attachment: fixed;
+}
+#background-img {  
+    width: 100%;  
+    
 }
 .header-bar {
     background-color: black;
     height: 2px;
     margin-bottom: 10px;
 }
+
+
+/* index style */
 .index-image {
     float: left;
+    margin-right: 10px;
+    width: 350px;
 }
 
 
 /* Portfolio Style */
 #portfolio-content {
-    background-color: Grey;
+    position: relative;
+    background-color: #badbf3;
     margin-top: 50px;
     margin-left: 20px;
-    width: 500px;
+    width: 900px;
 }
 .portfolio-image {
     margin-bottom: 20px;
+    width: 350px;
 }
 .portfolio-image-col {
     
