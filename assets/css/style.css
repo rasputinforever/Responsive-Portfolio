@@ -1,0 +1,28 @@
+#main-content {
+    background-color: Grey;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.header-bar {
+    background-color: black;
+    height: 2px;
+    margin-bottom: 10px;
+}
+.index-image {
+    float: left;
+}
+
+
+/* Portfolio Style */
+#portfolio-content {
+    background-color: Grey;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 500px;
+}
+.portfolio-image {
+    margin-bottom: 20px;
+}
+.portfolio-image-col {
+    
+}
