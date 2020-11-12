@@ -19,7 +19,9 @@
     height: 2px;
     margin-bottom: 10px;
 }
-
+h1 {
+    margin-left: 20px;
+}
 
 /* index style */
 .index-image {
@@ -38,9 +40,22 @@
     width: 900px;
 }
 .portfolio-image {
-    margin-bottom: 20px;
+    margin: 20px;
     width: 350px;
 }
 .portfolio-image-col {
     
+}
+
+#contact-content {
+    position: relative;
+    background-color: #badbf3;
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 700px;
+}
+#submit-btn {
+    margin-bottom: 20px;
+    background-color: #6b7e8b;
+    border-color: #badbf3;
 }
