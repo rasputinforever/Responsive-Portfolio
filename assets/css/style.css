@@ -61,16 +61,49 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+    /* Portfolio Style */
+    #portfolio-content {
+        position: relative;
+        background-color: #badbf3;
+        margin-top: 50px;
+        margin-left: 10px;
+        width: 350px;
+    }
+    .portfolio-image {
+        margin: 20px;
+        width: 400px;
+    }
+
+    /* Contact Style */
     #contact-content {
         position: relative;
         background-color: #badbf3;
         margin-top: 50px;
         margin-left: 20px;
-        width: 400px;
+        width: 50%;
     }   
+    .portfolio-image {
+        margin: 20px;
+        width: 150px;
+    }
 }
 
 @media screen and (max-width: 400px) {
+    /* Portfolio Style */
+    #portfolio-content {
+        position: relative;
+        background-color: #badbf3;
+        margin-top: 50px;
+        margin-left: 10px;
+        width: 350px;
+    }
+    .portfolio-image {
+        margin: 20px;
+        width: 310px;
+        margin-left: 5px;
+    }
+
+    /* Contact Style */
     #contact-content {
         position: relative;
         background-color: #badbf3;
