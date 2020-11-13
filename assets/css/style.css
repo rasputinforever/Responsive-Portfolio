@@ -61,6 +61,15 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+    
+    #main-content {
+        position: relative;
+        background-color: #badbf3;
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 750px;
+    }
+
     /* Portfolio Style */
     #portfolio-content {
         position: relative;
@@ -86,6 +95,19 @@ h1 {
 }
 
 @media screen and (max-width: 400px) {
+    #main-content {
+        position: relative;
+        background-color: #badbf3;
+        margin-top: 50px;
+        margin-left: 10px;
+        width: 350px;
+    }
+    .index-image {
+        float: left;
+        margin-right: 10px;
+        width: 250px;
+    }
+
     /* Portfolio Style */
     #portfolio-content {
         position: relative;
