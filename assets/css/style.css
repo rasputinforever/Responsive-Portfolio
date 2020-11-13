@@ -1,9 +1,12 @@
-
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
 #main-content {
     background-color: #badbf3;
     margin-top: 50px;
     margin-left: 20px;
     position: relative;
+    
 }
 .background-img {
     position: fixed;
@@ -11,7 +14,7 @@
     background-attachment: fixed;
 }
 #background-img {  
-    width: 3000px;  
+    width: 2500px;  
     
 }
 .header-bar {
@@ -19,7 +22,7 @@
     height: 2px;
     margin-bottom: 10px;
 }
-h1 {
+h1 {    
     margin-left: 20px;
 }
 
@@ -63,18 +66,16 @@ h1 {
 @media screen and (max-width: 768px) {
     
     #main-content {
-        position: relative;
-        background-color: #badbf3;
-        margin-top: 50px;
         margin-left: 20px;
         width: 750px;
     }
+    .index-image {
+        margin-right: 10px;
+        width: 300px;
+    }
 
     /* Portfolio Style */
-    #portfolio-content {
-        position: relative;
-        background-color: #badbf3;
-        margin-top: 50px;
+    #portfolio-content {        
         margin-left: 20px;
         width: 380px;
     }
@@ -85,34 +86,23 @@ h1 {
 
     /* Contact Style */
     #contact-content {
-        position: relative;
-        background-color: #badbf3;
-        margin-top: 50px;
         margin-left: 20px;
-        width: 50%;
+        width: 550px;
     }   
-
 }
 
 @media screen and (max-width: 400px) {
     #main-content {
-        position: relative;
-        background-color: #badbf3;
-        margin-top: 50px;
         margin-left: 10px;
         width: 350px;
     }
     .index-image {
-        float: left;
         margin-right: 10px;
         width: 250px;
     }
 
     /* Portfolio Style */
     #portfolio-content {
-        position: relative;
-        background-color: #badbf3;
-        margin-top: 50px;
         margin-left: 10px;
         width: 350px;
     }
@@ -124,16 +114,10 @@ h1 {
 
     /* Contact Style */
     #contact-content {
-        position: relative;
-        background-color: #badbf3;
-        margin-top: 50px;
         margin-left: 10px;
         width: 380px;
     }   
     #submit-btn {
-        margin-bottom: 20px;
         font-size: 38px;
-        background-color: #6b7e8b;
-        border-color: #badbf3;
     }
 }
