@@ -11,7 +11,7 @@
     background-attachment: fixed;
 }
 #background-img {  
-    width: 100%;  
+    width: 3000px;  
     
 }
 .header-bar {
@@ -52,10 +52,36 @@ h1 {
     background-color: #badbf3;
     margin-top: 50px;
     margin-left: 20px;
-    width: 700px;
+    width: 750px;
 }
 #submit-btn {
     margin-bottom: 20px;
     background-color: #6b7e8b;
     border-color: #badbf3;
+}
+
+@media screen and (max-width: 768px) {
+    #contact-content {
+        position: relative;
+        background-color: #badbf3;
+        margin-top: 50px;
+        margin-left: 20px;
+        width: 400px;
+    }   
+}
+
+@media screen and (max-width: 400px) {
+    #contact-content {
+        position: relative;
+        background-color: #badbf3;
+        margin-top: 50px;
+        margin-left: 10px;
+        width: 380px;
+    }   
+    #submit-btn {
+        margin-bottom: 20px;
+        font-size: 38px;
+        background-color: #6b7e8b;
+        border-color: #badbf3;
+    }
 }
