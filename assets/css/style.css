@@ -66,12 +66,12 @@ h1 {
         position: relative;
         background-color: #badbf3;
         margin-top: 50px;
-        margin-left: 10px;
-        width: 350px;
+        margin-left: 20px;
+        width: 380px;
     }
     .portfolio-image {
-        margin: 20px;
-        width: 400px;
+        margin: 10px;
+        width: 320px;
     }
 
     /* Contact Style */
@@ -82,10 +82,7 @@ h1 {
         margin-left: 20px;
         width: 50%;
     }   
-    .portfolio-image {
-        margin: 20px;
-        width: 150px;
-    }
+
 }
 
 @media screen and (max-width: 400px) {
