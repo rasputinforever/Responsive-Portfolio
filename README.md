@@ -84,3 +84,16 @@ You are required to submit the following:
 - - -
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+***delete everything above this***
+
+## Week 2 Homework - About Me Website
+
+Purpose: This website demonstrates primarily two exciting development tools
+1) Bootstrap implementation
+2) Media Screen CSS "events"
+
+Bootstrap was used to create the Navigation Bar and the grid by which the page elements are organized. The pages link to both the CSS and JS links from bootstrap.
+
+In the CSS file "style.css" we have page-specific stylings for the page as well as the @Media settings. Each page should appear different at full-size, medium-sized, and small-sized. The container should shrink, the images should size appropriately, and at each of the three thresholds the pages should appear in a pleasing way.
+

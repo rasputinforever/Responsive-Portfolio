@@ -1,32 +1,36 @@
 div {
     font-family: Arial, Helvetica, sans-serif;
 }
-#main-content {
-    background-color: #badbf3;
-    margin-top: 50px;
-    margin-left: 20px;
-    position: relative;
-    
-}
-.background-img {
-    position: fixed;
-    width: 100%;
-    background-attachment: fixed;
-}
-#background-img {  
-    width: 2500px;  
-    
-}
+
+
 .header-bar {
     background-color: black;
     height: 2px;
     margin-bottom: 10px;
 }
-h1 {    
-    margin-left: 20px;
+#background-img {
+    position: fixed;
+    width: 2000px;
+    background-attachment: fixed;
+}
+#sticky-footer {
+    position: fixed;
+    background-attachment: fixed;    
 }
 
 /* index style */
+h1 {    
+    margin-left: 20px;
+}
+#main-content {
+    background-color: #badbf3;
+    margin-top: 50px;
+    position: relative;    
+}
+.large-view {
+
+    margin-left: 20px;
+}
 .index-image {
     float: left;
     margin-right: 10px;
@@ -64,10 +68,12 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-    
-    #main-content {
+    .medium-view {
         margin-left: 20px;
         width: 750px;
+    }
+    #main-content {
+        
     }
     .index-image {
         margin-right: 10px;
@@ -92,13 +98,12 @@ h1 {
 }
 
 @media screen and (max-width: 400px) {
-    #main-content {
-        margin-left: 10px;
-        width: 350px;
+    .small-view {
+        width: 90%;
     }
     .index-image {
         margin-right: 10px;
-        width: 250px;
+        width: 200px;
     }
 
     /* Portfolio Style */
