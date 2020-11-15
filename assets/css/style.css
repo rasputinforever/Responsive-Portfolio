@@ -8,18 +8,21 @@ div {
 }
 #background-img {
     position: fixed;
-    height: 100%;
+    width: 1500px;
     background-attachment: fixed;
 }
 #sticky-footer {
-    position: fixed;
-    background-attachment: fixed;    
+    width: 100%;
+    bottom: 0;
+    position: fixed; 
+    left: 0;
 }
 .large-view {
     margin-left: 20px;
     background-color: #badbf3;
     margin-top: 50px;
-    position: relative;  
+    position: relative;
+    margin-bottom: 100px;  
 }
 /* index style */
 h1 {    
