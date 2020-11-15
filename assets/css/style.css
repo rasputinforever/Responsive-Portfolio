@@ -1,3 +1,4 @@
+/*Styling for All Pages*/
 div {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,6 +17,8 @@ div {
     bottom: 0;
     position: fixed; 
     left: 0;
+    background-color: lightblue;
+    opacity: 75%;
 }
 .large-view {
     margin-left: 20px;
@@ -24,28 +27,22 @@ div {
     position: relative;
     margin-bottom: 100px;  
 }
-/* index style */
 h1 {    
     margin-left: 18px;
+    margin-top: 10px;
 }
-#main-content {
-      
-}
+/* index style */
 .index-image {
     float: left;
     margin-right: 10px;
     margin-bottom: 20px;
     width: 350px;
 }
-
 /* Portfolio Style */
-#portfolio-content {
-}
 .portfolio-image {
     margin: 20px;
     width: 400px;
 }
-
 /* Contact Style */
 #contact-content {
     width: 750px;
@@ -55,12 +52,13 @@ h1 {
     background-color: #6b7e8b;
     border-color: #badbf3;
 }
-
 @media screen and (max-width: 768px) {
+    /*Styling for All Pages*/
     .medium-view {
         margin-left: 20px;
         width: 750px;
     }
+    /*Index Style */
     .index-image {
         margin-right: 10px;
         width: 250px;
@@ -72,21 +70,18 @@ h1 {
     .portfolio-image {
         margin: 10px;
         width: 450px;
-    }
-    /* Contact Style */
+    }    
 }
-
 @media screen and (max-width: 400px) {
+    /*Styling for All Pages*/
     .small-view {
         width: 90%;
     }
-
     /*Index Style */
     .index-image {
         margin-right: 10px;
         width: 200px;
     }
-
     /* Portfolio Style */
     .portfolio-image {
         margin: 20px;
@@ -96,8 +91,7 @@ h1 {
    /* Contact Style */
     #contact-content {
         width: 90%;
-    }
- 
+    } 
     #submit-btn {
         font-size: 38px;
     }
