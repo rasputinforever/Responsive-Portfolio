@@ -15,19 +15,18 @@ div {
     position: fixed;
     background-attachment: fixed;    
 }
-
 .large-view {
     margin-left: 20px;
+    background-color: #badbf3;
+    margin-top: 50px;
+    position: relative;  
 }
-
 /* index style */
 h1 {    
     margin-left: 18px;
 }
 #main-content {
-    background-color: #badbf3;
-    margin-top: 50px;
-    position: relative;    
+      
 }
 .index-image {
     float: left;
@@ -38,24 +37,14 @@ h1 {
 
 /* Portfolio Style */
 #portfolio-content {
-    position: relative;
-    background-color: #badbf3;
-    margin-top: 50px;
 }
 .portfolio-image {
     margin: 20px;
     width: 400px;
 }
 
-
-
-
 /* Contact Style */
 #contact-content {
-    position: relative;
-    background-color: #badbf3;
-    margin-top: 50px;
-    margin-left: 20px;
     width: 750px;
 }
 #submit-btn {
@@ -82,34 +71,30 @@ h1 {
         width: 450px;
     }
     /* Contact Style */
-    #contact-content {
-        margin-left: 20px;
-        width: 550px;
-    }   
 }
 
 @media screen and (max-width: 400px) {
     .small-view {
         width: 90%;
     }
+
+    /*Index Style */
     .index-image {
         margin-right: 10px;
         width: 200px;
     }
 
     /* Portfolio Style */
-
     .portfolio-image {
         margin: 20px;
         width: 310px;
         margin-left: 5px;
     }
-
-    /* Contact Style */
+   /* Contact Style */
     #contact-content {
-        margin-left: 10px;
-        width: 380px;
-    }   
+        width: 90%;
+    }
+ 
     #submit-btn {
         font-size: 38px;
     }
