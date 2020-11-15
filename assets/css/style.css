@@ -9,7 +9,7 @@ div {
 }
 #background-img {
     position: fixed;
-    width: 1500px;
+    width: 2000px;
     background-attachment: fixed;
 }
 #sticky-footer {
