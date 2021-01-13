@@ -52,6 +52,10 @@ h1 {
     background-color: #6b7e8b;
     border-color: #badbf3;
 }
+article {
+    float: right;
+    width: 50%;
+}
 @media screen and (max-width: 768px) {
     /*Styling for All Pages*/
     .medium-view {
@@ -71,6 +75,10 @@ h1 {
         margin: 10px;
         width: 450px;
     }    
+    article {
+        float: none;
+        width: 100%;
+    }
 }
 @media screen and (max-width: 400px) {
     /*Styling for All Pages*/
@@ -94,5 +102,9 @@ h1 {
     } 
     #submit-btn {
         font-size: 38px;
+    }
+    article {
+        float: none;
+        width: 100%;
     }
 }
