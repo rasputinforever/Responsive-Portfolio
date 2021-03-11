@@ -7,6 +7,11 @@ body {
     height: 2px;
     margin-bottom: 10px;
 }
+#main-content {
+    box-shadow: 10px 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
 #background-img {
     position: fixed;
     width: 2000px;
@@ -19,6 +24,7 @@ body {
     left: 0;
     background-color: lightblue;
     opacity: 75%;
+    margin:0;
 }
 .large-view {
     margin-left: 20px;
